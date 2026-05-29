@@ -1,0 +1,18 @@
+(
+    network: (
+        bind: "0.0.0.0",
+        port: 5000,
+        public_addresses: ["127.0.0.1:5000"],
+        max_clients: 64,
+    ),
+    world: (
+        tps: 20,
+    ),
+    master: (
+        enabled: true,
+        url: "https://gsudgbbezydpjpzjnuax.supabase.co/rest/v1/servers",
+        anon_key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdzdWRnYmJlenlkcGpwempudWF4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc4NTI3NTcsImV4cCI6MjA5MzQyODc1N30.RaLPsGalVIb9YOSaYWnlHa97KOQSI_AMrCy_JsflLk8",
+        server_name: "My Server",
+        heartbeat_secs: 10,
+    ),
+)
